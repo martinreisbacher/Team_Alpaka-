@@ -1,7 +1,7 @@
 # Team_Alpaka-
 Projekt für das Modul 306 von Martin Wyss, Kevin Ertl, Martin Reisbacher, Yassin Abdi-Aden 
 
-# Jumpaka: Legends of the Fluff
+# 🦙 Jumpaka: Legends of the Fluff
 
 Ein einfaches 2D-Jump-and-Run-Spiel, entwickelt im Rahmen des Moduls **306 – IT-Projekt realisieren**. 
 Der Spieler steuert ein automatisch laufendes Alpaka und muss per Sprung Taste Hindernissen ausweichen, Punkte sammeln und einen immer höheren Schwierigkeitsgrad meistern.
@@ -40,47 +40,38 @@ Ziel ist es, ein spielbares Minimal-Viable-Product (MVP) für ein 2D-Jump-and-Ru
 
 ## Installation & Start
 
-```bash
-# Repository klonen
-git clone https://github.com/martinreisbacher/Team_Alpaka-.git
-cd Jumpaka-Legends-of-the-Fluff
+**1. Repository klonen:**
 
-# 1. Einfachster Weg: index.html direkt öffnen
-# Doppelklick auf index.html → läuft sofort im Browser!
+| Methode     | Befehl / Aktion                                 | Browser        |
+| ----------- | ----------------------------------------------- | -------------- |
+| Einfach     | index.html doppelklicken                        | ✅ Sofort      |
+| Live Server | VS Code → Rechtsklick → "Open with Live Server" | localhost:5500 |
+| Python      | python -m http.server 8000                      | localhost:8000 |
 
-# 2. Mit Live Server (empfohlen für Entwicklung):
-# VS Code + Live Server Extension → Rechtsklick auf index.html → "Open with Live Server"
+## Steuerung
 
-# 3. Python Server (falls VS Code Live Server nicht verfügbar):
-python -m http.server 8000
-# Dann http://localhost:8000 im Browser öffnen
-
-**## Steuerung**
-
-| Taste          | Funktion          |
-|----------------|-------------------|
-| **Leertaste**  | Springen         |
+| Taste          | Funktion                 |
+|----------------|--------------------------|
+| **Leertaste**  | Springen                 |
 | **Enter**      | Spiel starten / Neustart |
-| **ESC**        | Pause (optional) |
+| **ESC**        | Pause (optional)         |
 
 Das Spiel ist bewusst einfach gehalten – **keine Anleitung nötig**!
 
-**## Projektorganisation**
+## Projektorganisation
 
 **Teammitglieder:**
+- Martin Reisbacher -> Projektleiter 
 - Martin Wyss -> Business Analyst
-- Kevin Ertl  -> Entwickler
-- Martin Reisbacher -> Projektleiter  
+- Kevin Ertl -> Entwickler
 - Yassin Abdi-Aden -> Tester
 
-**DAuftraggeber:** Michal Duric (CsBe)
+**Dozent / Auftraggeber:** Michal Duric (CsBe)
 
 **Methodik:** HERMES 5.1 Standard-Methode
 
+## Roadmap
 
-**## Roadmap**
-
-```markdown
 - [ ] Grundmechanik: Laufen + Canvas Setup
 - [ ] Springen implementieren
 - [ ] Hindernisse + Kollision
@@ -90,8 +81,9 @@ Das Spiel ist bewusst einfach gehalten – **keine Anleitung nötig**!
 - [ ] Tests auf Schul-PCs
 - [ ] Finale Präsentation
 
-**## Lizenz**
+## Lizenz
 
 © 2026 Alpaka Inc. Switzerland
 Schulprojekt – nicht kommerziell genutzt.
-All rights reserved.
+All rights reserved. 
+Geistiges Eigentum bleibt bei der Alpaka Inc. Switzerland
