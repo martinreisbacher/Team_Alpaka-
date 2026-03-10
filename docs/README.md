@@ -3,7 +3,8 @@ Projekt für das Modul 306 von Martin Wyss, Kevin Ertl, Martin Reisbacher, Yassi
 
 # Projekt-Dokumentation
 
-Dieses Verzeichnis enthält alle HERMES-konformen Dokumente für das Projekt, z. B. Jumpaka Legends of the Fluff
+Dieses Verzeichnis enthält alle HERMES-konformen Dokumente für das Projekt Jumpaka Legends of the Fluff
+Der originale Upload für Phase 1 hat über Branches am Sonntag 08.03.2026 stattgefunden. Diese Docs wurden nun auch in die Main Branch eingeführt.
 
 ## Inhalt
 - [HERMES-Phasen](#hermes-phasen)
