@@ -16,7 +16,6 @@ Der Spieler steuert ein automatisch laufendes Alpaka und muss per Sprung Taste H
 - [Projektorganisation](#projektorganisation)
 - [Roadmap](#roadmap)
 - [HERMES-Phasen](#hermes-phasen)
-- [Dokumentenliste](#dokumentenliste)
 - [Lizenz](#lizenz)
 
 ## Über das Projekt
