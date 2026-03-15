@@ -81,8 +81,8 @@ Das Spiel ist bewusst einfach gehalten – **keine Anleitung nötig**!
 - [ x] Springen implementieren
 - [ x] Hindernisse + Kollision
 - [ x] Punktesystem
-- [ ] Schwierigkeitsgrad automatisch erhöhen
-- [ ] Schwierigkeitslevel vor Spielstart manuell erhöhen
+- [x ] Schwierigkeitsgrad automatisch erhöhen
+- [ x] Schwierigkeitslevel vor Spielstart manuell erhöhen
 - [ ] Game Over Screen + Highscore (lokal)
 - [ ] Tests auf Schul-PCs
 - [ ] Finale Präsentation
