@@ -16,7 +16,6 @@ Der Spieler steuert ein automatisch laufendes Alpaka und muss per Sprung Taste H
 - [Projektorganisation](#projektorganisation)
 - [Roadmap](#roadmap)
 - [HERMES-Phasen](#hermes-phasen)
-- [Dokumentenliste](#dokumentenliste)
 - [Lizenz](#lizenz)
 
 ## Über das Projekt
@@ -77,12 +76,12 @@ Das Spiel ist bewusst einfach gehalten – **keine Anleitung nötig**!
 
 ## Roadmap Spielentwicklung
 
-- [x ] Grundmechanik: Laufen + Canvas Setup
-- [ x] Springen implementieren
-- [ x] Hindernisse + Kollision
-- [ x] Punktesystem
-- [ ] Schwierigkeitsgrad automatisch erhöhen
-- [ ] Schwierigkeitslevel vor Spielstart manuell erhöhen
+- [x] Grundmechanik: Laufen + Canvas Setup
+- [x] Springen implementieren
+- [x] Hindernisse + Kollision
+- [x] Punktesystem
+- [x] Schwierigkeitsgrad automatisch erhöhen
+- [x] Schwierigkeitslevel vor Spielstart manuell erhöhen
 - [ ] Game Over Screen + Highscore (lokal)
 - [ ] Tests auf Schul-PCs
 - [ ] Finale Präsentation
