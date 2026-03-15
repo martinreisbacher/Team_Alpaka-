@@ -15,6 +15,8 @@ Der Spieler steuert ein automatisch laufendes Alpaka und muss per Sprung Taste H
 - [Steuerung](#steuerung)
 - [Projektorganisation](#projektorganisation)
 - [Roadmap](#roadmap)
+- [HERMES-Phasen](#hermes-phasen)
+- [Dokumentenliste](#dokumentenliste)
 - [Lizenz](#lizenz)
 
 ## Über das Projekt
@@ -28,33 +30,36 @@ Ziel ist es, ein spielbares Minimal-Viable-Product (MVP) für ein 2D-Jump-and-Ru
 - Hindernisse, die übersprungen werden müssen
 - Punktesystem (Distanz / übersprungene Hindernisse)
 - Steigender Schwierigkeitsgrad (z.B. höhere Geschwindigkeit oder mehr Hindernisse)
+- Skinfreischaltung für mehr Spielspass
 - Einfache, intuitiv verständliche Steuerung ohne Anleitung
-- Leichtgewichtige 2D-Grafik für flüssige Performance auf z.B. Schul-PCs
+- Leichtgewichtige 2D-Grafik für flüssige Performance auf diversen PCs
 
 ## Technik-Stack
 
-- HTML5, CSS3
+- HTML5, CSS
 - JavaScript (Vanilla)
 - Optional: GitHub Pages für das Hosting
 - Entwicklungsumgebung: VS Code
 
 ## Installation & Start
 
-**1. Repository klonen:**
+**1. Repository klonen**
+
+Den Src Ordner aus dem Repository clonen.
+
+**2. Start**
 
 | Methode     | Befehl / Aktion                                 | Browser        |
 | ----------- | ----------------------------------------------- | -------------- |
 | Einfach     | index.html doppelklicken                        | ✅ Sofort      |
-| Live Server | VS Code → Rechtsklick → "Open with Live Server" | localhost:5500 |
-| Python      | python -m http.server 8000                      | localhost:8000 |
 
 ## Steuerung
 
 | Taste          | Funktion                 |
 |----------------|--------------------------|
-| **Leertaste**  | Springen                 |
-| **Enter**      | Spiel starten / Neustart |
-| **ESC**        | Pause (optional)         |
+| **Leertaste**  | Spiel starten / Springen |
+| **Enter**      | Neustart |
+| **R**        | lokaler Highscore Reset        |
 
 Das Spiel ist bewusst einfach gehalten – **keine Anleitung nötig**!
 
@@ -70,16 +75,30 @@ Das Spiel ist bewusst einfach gehalten – **keine Anleitung nötig**!
 
 **Methodik:** HERMES 5.1 Standard-Methode
 
-## Roadmap
+## Roadmap Spielentwicklung
 
-- [ ] Grundmechanik: Laufen + Canvas Setup
-- [ ] Springen implementieren
-- [ ] Hindernisse + Kollision
-- [ ] Punktesystem
-- [ ] Schwierigkeitsgrad erhöhen
+- [x ] Grundmechanik: Laufen + Canvas Setup
+- [ x] Springen implementieren
+- [ x] Hindernisse + Kollision
+- [ x] Punktesystem
+- [ ] Schwierigkeitsgrad automatisch erhöhen
+- [ ] Schwierigkeitslevel vor Spielstart manuell erhöhen
 - [ ] Game Over Screen + Highscore (lokal)
 - [ ] Tests auf Schul-PCs
 - [ ] Finale Präsentation
+
+## HERMES-Phasen
+Das Projekt folgt dem klassischen HERMES-Phasenmodell:
+
+| Phase | Beschreibung | Wichtige Dokumente | Abgabetermin |
+|-------|--------------|--------------------|------------- |
+| Initialisierung | Klärung von Zielen, Stakeholdern, Risiken und Rahmenbedingungen. | Projektinitialisierungsauftrag, Stakeholderliste, PMP. Gesamtdokumentation Punkt 1 | 08.03.2026 |
+| Konzept | Ausarbeitung der Lösung, Anforderungen und Machbarkeitsprüfung. | Situationsanalyse, Testkonzept, Integrationskonzept. Gesamtdokumentation Punkt 2 | 14.03.2026 |
+| Realisierung | Entwicklung, Tests und Integration des Produkts. | Code-Docs, Testprotokolle. |
+| Einführung | Rollout in den Betrieb, Schulung und Übergabe. | Einführungsplan, Schulungsmaterial. |
+| Abschluss | Finale Abnahme, Lessons Learned und Projektende. | Abschluss-Projektauftrag. |
+| | | |
+|  | Phasenübergreifende Dokumente | Protokolle,Arbeitsplan,Projektentscheidungen Gesamtdokumentation Punkt 5 |
 
 ## Lizenz
 
