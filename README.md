@@ -47,6 +47,11 @@ Ziel ist es, ein spielbares Minimal-Viable-Product (MVP) für ein 2D-Jump-and-Ru
 
 ## Installation & Start
 
+über folgenden Link direkt ohne Download:
+https://martinreisbacher.github.io/Jumpaka/
+
+oder
+
 **1. Repository klonen**
 
 Den Src Ordner aus dem Repository clonen.
