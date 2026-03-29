@@ -92,9 +92,9 @@ Das Spiel ist bewusst einfach gehalten – **keine Anleitung nötig**!
 - [x] Punktesystem
 - [x] Schwierigkeitsgrad automatisch erhöhen
 - [x] Schwierigkeitslevel vor Spielstart manuell erhöhen
-- [ ] Game Over Screen + Highscore (lokal)
-- [ ] Tests auf Schul-PCs
-- [ ] Finale Präsentation
+- [x] Game Over Screen + Highscore (lokal)
+- [x] Tests auf Schul-PCs
+- [x] Finale Präsentation
 
 ## HERMES-Phasen
 Das Projekt folgt dem klassischen HERMES-Phasenmodell:
@@ -102,10 +102,10 @@ Das Projekt folgt dem klassischen HERMES-Phasenmodell:
 | Phase | Beschreibung | Wichtige Dokumente | Abgabetermin |
 |-------|--------------|--------------------|------------- |
 | Initialisierung | Klärung von Zielen, Stakeholdern, Risiken und Rahmenbedingungen. | Projektinitialisierungsauftrag, Stakeholderliste, PMP. Gesamtdokumentation Punkt 1 | 08.03.2026 |
-| Konzept | Ausarbeitung der Lösung, Anforderungen und Machbarkeitsprüfung. | Situationsanalyse, Testkonzept, Integrationskonzept. Gesamtdokumentation Punkt 2 | 14.03.2026 |
-| Realisierung | Entwicklung, Tests und Integration des Produkts. | Code-Docs, Testprotokolle. |
-| Einführung | Rollout in den Betrieb, Schulung und Übergabe. | Einführungsplan, Schulungsmaterial. |
-| Abschluss | Finale Abnahme, Lessons Learned und Projektende. | Abschluss-Projektauftrag. |
+| Konzept | Ausarbeitung der Lösung, Anforderungen und Machbarkeitsprüfung. | Situationsanalyse, Testkonzept, Integrationskonzept. Gesamtdokumentation Punkt 2 | 15.03.2026 |
+| Realisierung | Entwicklung, Tests und Integration des Produkts. | Code-Docs, Testprotokolle. | 22.03.2026 |
+| Einführung | Rollout in den Betrieb, Schulung und Übergabe. | Einführungsplan, Schulungsmaterial. | 29.03.2026 |
+| Abschluss | Finale Abnahme, Lessons Learned und Projektende. | Abschluss-Projektauftrag. | 29.03.2026 |
 | | | |
 |  | Phasenübergreifende Dokumente | Protokolle,Arbeitsplan,Projektentscheidungen Gesamtdokumentation Punkt 5 |
 
