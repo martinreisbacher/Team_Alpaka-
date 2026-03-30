@@ -1,0 +1,84 @@
+/* ============================================================
+   Jumpaka: Legends of the Fluff — Styles
+   ============================================================ */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef6ff;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h1 { margin: 16px 0 8px; }
+p  { margin: 0 0 12px; }
+
+/* ── Layout-Gruppen ── */
+.controls,
+.skin-panel,
+.difficulty-panel {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 0 12px;
+  flex-wrap: wrap;
+}
+
+/* ── Buttons ── */
+button {
+  border: 2px solid #222;
+  background: #fff;
+  padding: 8px 14px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+button.active   { background: #222; color: #fff; }
+button.locked,
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+/* ── Abschnitts-Titel ── */
+.section-title {
+  margin: 8px 0 10px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* ── Skin-Highscore-Anzeige ── */
+.skin-highscore {
+  margin: 4px 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* ── Skin-Vorschau ── */
+.skin-preview-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 18px;
+}
+.skin-preview-label {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+#skinPreview {
+  width: 220px;
+  height: 120px;
+  border: 2px solid #222;
+  border-radius: 12px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+/* ── Spiel-Canvas ── */
+canvas#game {
+  background: #fff;
+  border: 2px solid #222;
+  display: block;
+  margin: 0 auto 16px;
+  box-sizing: border-box;
+}
